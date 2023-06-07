@@ -14,5 +14,5 @@ jobs:
             username: ${{ secrets.SSH_USERNAME }}
             password: ${{ secrets.SSH_PASSWORD }}
             script: |
-                cd /var/www/react-app/my-app
+                cd /var/www/html
                 git pull origin main
